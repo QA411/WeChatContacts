@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1267C0A11ED8110E0027F0C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0A01ED8110E0027F0C2 /* main.m */; };
+		1267C0A41ED8110E0027F0C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0A31ED8110E0027F0C2 /* AppDelegate.m */; };
+		1267C0A71ED8110E0027F0C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0A61ED8110E0027F0C2 /* ViewController.m */; };
+		1267C0AA1ED8110E0027F0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1267C0A81ED8110E0027F0C2 /* Main.storyboard */; };
+		1267C0AC1ED8110E0027F0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1267C0AB1ED8110E0027F0C2 /* Assets.xcassets */; };
+		1267C0AF1ED8110E0027F0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1267C0AD1ED8110E0027F0C2 /* LaunchScreen.storyboard */; };
+		1267C0BA1ED8110E0027F0C2 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0B91ED8110E0027F0C2 /* ______Tests.m */; };
+		1267C0C51ED8110E0027F0C2 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0C41ED8110E0027F0C2 /* ______UITests.m */; };
+		1267C0DF1ED811EA0027F0C2 /* SXAddressBookDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0D41ED811EA0027F0C2 /* SXAddressBookDefine.m */; };
+		1267C0E01ED811EA0027F0C2 /* SXAddressBookIOS7Maneger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0D61ED811EA0027F0C2 /* SXAddressBookIOS7Maneger.m */; };
+		1267C0E11ED811EA0027F0C2 /* SXAddressBookIOS8Maneger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0D81ED811EA0027F0C2 /* SXAddressBookIOS8Maneger.m */; };
+		1267C0E21ED811EA0027F0C2 /* SXAddressBookIOS9Maneger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0DA1ED811EA0027F0C2 /* SXAddressBookIOS9Maneger.m */; };
+		1267C0E31ED811EA0027F0C2 /* SXAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0DC1ED811EA0027F0C2 /* SXAddressBookManager.m */; };
+		1267C0E41ED811EA0027F0C2 /* SXPersonInfoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0DE1ED811EA0027F0C2 /* SXPersonInfoEntity.m */; };
+		1267C0E71ED812220027F0C2 /* KTRelationShipAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0E61ED812220027F0C2 /* KTRelationShipAddressBookViewController.m */; };
+		1267C0EA1ED812540027F0C2 /* KTAddressBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0E91ED812540027F0C2 /* KTAddressBookTableViewCell.m */; };
+		1267C0EE1ED812FA0027F0C2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0ED1ED812FA0027F0C2 /* UIColor+Hex.m */; };
+		1267C0F11ED813830027F0C2 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0F01ED813830027F0C2 /* ContactModel.m */; };
+		1267C0F41ED814370027F0C2 /* ContactDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0F31ED814370027F0C2 /* ContactDataHelper.m */; };
+		1267C0F71ED814680027F0C2 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1267C0F61ED814680027F0C2 /* NSString+Utils.m */; };
+		926C1E2406686E32D5F360AD /* libPods-仿微信通讯录.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F5527930F0B1A3EE7C95F0 /* libPods-仿微信通讯录.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1267C0B61ED8110E0027F0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1267C0941ED8110E0027F0C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1267C09B1ED8110E0027F0C2;
+			remoteInfo = "仿微信通讯录";
+		};
+		1267C0C11ED8110E0027F0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1267C0941ED8110E0027F0C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1267C09B1ED8110E0027F0C2;
+			remoteInfo = "仿微信通讯录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B537D3C1D9BC134D81AF8E6 /* Pods-仿微信通讯录.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿微信通讯录.debug.xcconfig"; path = "Pods/Target Support Files/Pods-仿微信通讯录/Pods-仿微信通讯录.debug.xcconfig"; sourceTree = "<group>"; };
+		1267C09C1ED8110E0027F0C2 /* 仿微信通讯录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿微信通讯录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1267C0A01ED8110E0027F0C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1267C0A21ED8110E0027F0C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1267C0A31ED8110E0027F0C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1267C0A51ED8110E0027F0C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1267C0A61ED8110E0027F0C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1267C0A91ED8110E0027F0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1267C0AB1ED8110E0027F0C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1267C0AE1ED8110E0027F0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1267C0B01ED8110E0027F0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1267C0B51ED8110E0027F0C2 /* 仿微信通讯录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿微信通讯录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1267C0B91ED8110E0027F0C2 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		1267C0BB1ED8110E0027F0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1267C0C01ED8110E0027F0C2 /* 仿微信通讯录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿微信通讯录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1267C0C41ED8110E0027F0C2 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		1267C0C61ED8110E0027F0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1267C0D31ED811EA0027F0C2 /* SXAddressBookDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAddressBookDefine.h; sourceTree = "<group>"; };
+		1267C0D41ED811EA0027F0C2 /* SXAddressBookDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAddressBookDefine.m; sourceTree = "<group>"; };
+		1267C0D51ED811EA0027F0C2 /* SXAddressBookIOS7Maneger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAddressBookIOS7Maneger.h; sourceTree = "<group>"; };
+		1267C0D61ED811EA0027F0C2 /* SXAddressBookIOS7Maneger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAddressBookIOS7Maneger.m; sourceTree = "<group>"; };
+		1267C0D71ED811EA0027F0C2 /* SXAddressBookIOS8Maneger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAddressBookIOS8Maneger.h; sourceTree = "<group>"; };
+		1267C0D81ED811EA0027F0C2 /* SXAddressBookIOS8Maneger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAddressBookIOS8Maneger.m; sourceTree = "<group>"; };
+		1267C0D91ED811EA0027F0C2 /* SXAddressBookIOS9Maneger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAddressBookIOS9Maneger.h; sourceTree = "<group>"; };
+		1267C0DA1ED811EA0027F0C2 /* SXAddressBookIOS9Maneger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAddressBookIOS9Maneger.m; sourceTree = "<group>"; };
+		1267C0DB1ED811EA0027F0C2 /* SXAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAddressBookManager.h; sourceTree = "<group>"; };
+		1267C0DC1ED811EA0027F0C2 /* SXAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAddressBookManager.m; sourceTree = "<group>"; };
+		1267C0DD1ED811EA0027F0C2 /* SXPersonInfoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPersonInfoEntity.h; sourceTree = "<group>"; };
+		1267C0DE1ED811EA0027F0C2 /* SXPersonInfoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXPersonInfoEntity.m; sourceTree = "<group>"; };
+		1267C0E51ED812220027F0C2 /* KTRelationShipAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTRelationShipAddressBookViewController.h; sourceTree = "<group>"; };
+		1267C0E61ED812220027F0C2 /* KTRelationShipAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTRelationShipAddressBookViewController.m; sourceTree = "<group>"; };
+		1267C0E81ED812540027F0C2 /* KTAddressBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTAddressBookTableViewCell.h; sourceTree = "<group>"; };
+		1267C0E91ED812540027F0C2 /* KTAddressBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTAddressBookTableViewCell.m; sourceTree = "<group>"; };
+		1267C0EB1ED812FA0027F0C2 /* colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colors.h; sourceTree = "<group>"; };
+		1267C0EC1ED812FA0027F0C2 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		1267C0ED1ED812FA0027F0C2 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		1267C0EF1ED813830027F0C2 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		1267C0F01ED813830027F0C2 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		1267C0F21ED814370027F0C2 /* ContactDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDataHelper.h; sourceTree = "<group>"; };
+		1267C0F31ED814370027F0C2 /* ContactDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDataHelper.m; sourceTree = "<group>"; };
+		1267C0F51ED814680027F0C2 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		1267C0F61ED814680027F0C2 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		65FA85D15C5D3101BE69E1B4 /* Pods-仿微信通讯录.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-仿微信通讯录.release.xcconfig"; path = "Pods/Target Support Files/Pods-仿微信通讯录/Pods-仿微信通讯录.release.xcconfig"; sourceTree = "<group>"; };
+		D0F5527930F0B1A3EE7C95F0 /* libPods-仿微信通讯录.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-仿微信通讯录.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1267C0991ED8110E0027F0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926C1E2406686E32D5F360AD /* libPods-仿微信通讯录.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267C0B21ED8110E0027F0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267C0BD1ED8110E0027F0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1267C0931ED8110E0027F0C2 = {
+			isa = PBXGroup;
+			children = (
+				1267C09E1ED8110E0027F0C2 /* 仿微信通讯录 */,
+				1267C0B81ED8110E0027F0C2 /* 仿微信通讯录Tests */,
+				1267C0C31ED8110E0027F0C2 /* 仿微信通讯录UITests */,
+				1267C09D1ED8110E0027F0C2 /* Products */,
+				42870865DD1E65BF021DE5D4 /* Pods */,
+				512D3E25161EA33EBE8CC38A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1267C09D1ED8110E0027F0C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1267C09C1ED8110E0027F0C2 /* 仿微信通讯录.app */,
+				1267C0B51ED8110E0027F0C2 /* 仿微信通讯录Tests.xctest */,
+				1267C0C01ED8110E0027F0C2 /* 仿微信通讯录UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1267C09E1ED8110E0027F0C2 /* 仿微信通讯录 */ = {
+			isa = PBXGroup;
+			children = (
+				1267C0D21ED811EA0027F0C2 /* SXAddressbook */,
+				1267C0A21ED8110E0027F0C2 /* AppDelegate.h */,
+				1267C0A31ED8110E0027F0C2 /* AppDelegate.m */,
+				1267C0E51ED812220027F0C2 /* KTRelationShipAddressBookViewController.h */,
+				1267C0E61ED812220027F0C2 /* KTRelationShipAddressBookViewController.m */,
+				1267C0E81ED812540027F0C2 /* KTAddressBookTableViewCell.h */,
+				1267C0E91ED812540027F0C2 /* KTAddressBookTableViewCell.m */,
+				1267C0F21ED814370027F0C2 /* ContactDataHelper.h */,
+				1267C0F31ED814370027F0C2 /* ContactDataHelper.m */,
+				1267C0EF1ED813830027F0C2 /* ContactModel.h */,
+				1267C0F01ED813830027F0C2 /* ContactModel.m */,
+				1267C0F51ED814680027F0C2 /* NSString+Utils.h */,
+				1267C0F61ED814680027F0C2 /* NSString+Utils.m */,
+				1267C0A51ED8110E0027F0C2 /* ViewController.h */,
+				1267C0A61ED8110E0027F0C2 /* ViewController.m */,
+				1267C0A81ED8110E0027F0C2 /* Main.storyboard */,
+				1267C0EB1ED812FA0027F0C2 /* colors.h */,
+				1267C0EC1ED812FA0027F0C2 /* UIColor+Hex.h */,
+				1267C0ED1ED812FA0027F0C2 /* UIColor+Hex.m */,
+				1267C0AB1ED8110E0027F0C2 /* Assets.xcassets */,
+				1267C0AD1ED8110E0027F0C2 /* LaunchScreen.storyboard */,
+				1267C0B01ED8110E0027F0C2 /* Info.plist */,
+				1267C09F1ED8110E0027F0C2 /* Supporting Files */,
+			);
+			path = "仿微信通讯录";
+			sourceTree = "<group>";
+		};
+		1267C09F1ED8110E0027F0C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1267C0A01ED8110E0027F0C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1267C0B81ED8110E0027F0C2 /* 仿微信通讯录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1267C0B91ED8110E0027F0C2 /* ______Tests.m */,
+				1267C0BB1ED8110E0027F0C2 /* Info.plist */,
+			);
+			path = "仿微信通讯录Tests";
+			sourceTree = "<group>";
+		};
+		1267C0C31ED8110E0027F0C2 /* 仿微信通讯录UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1267C0C41ED8110E0027F0C2 /* ______UITests.m */,
+				1267C0C61ED8110E0027F0C2 /* Info.plist */,
+			);
+			path = "仿微信通讯录UITests";
+			sourceTree = "<group>";
+		};
+		1267C0D21ED811EA0027F0C2 /* SXAddressbook */ = {
+			isa = PBXGroup;
+			children = (
+				1267C0D31ED811EA0027F0C2 /* SXAddressBookDefine.h */,
+				1267C0D41ED811EA0027F0C2 /* SXAddressBookDefine.m */,
+				1267C0D51ED811EA0027F0C2 /* SXAddressBookIOS7Maneger.h */,
+				1267C0D61ED811EA0027F0C2 /* SXAddressBookIOS7Maneger.m */,
+				1267C0D71ED811EA0027F0C2 /* SXAddressBookIOS8Maneger.h */,
+				1267C0D81ED811EA0027F0C2 /* SXAddressBookIOS8Maneger.m */,
+				1267C0D91ED811EA0027F0C2 /* SXAddressBookIOS9Maneger.h */,
+				1267C0DA1ED811EA0027F0C2 /* SXAddressBookIOS9Maneger.m */,
+				1267C0DB1ED811EA0027F0C2 /* SXAddressBookManager.h */,
+				1267C0DC1ED811EA0027F0C2 /* SXAddressBookManager.m */,
+				1267C0DD1ED811EA0027F0C2 /* SXPersonInfoEntity.h */,
+				1267C0DE1ED811EA0027F0C2 /* SXPersonInfoEntity.m */,
+			);
+			path = SXAddressbook;
+			sourceTree = "<group>";
+		};
+		42870865DD1E65BF021DE5D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B537D3C1D9BC134D81AF8E6 /* Pods-仿微信通讯录.debug.xcconfig */,
+				65FA85D15C5D3101BE69E1B4 /* Pods-仿微信通讯录.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		512D3E25161EA33EBE8CC38A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5527930F0B1A3EE7C95F0 /* libPods-仿微信通讯录.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1267C09B1ED8110E0027F0C2 /* 仿微信通讯录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1267C0C91ED8110E0027F0C2 /* Build configuration list for PBXNativeTarget "仿微信通讯录" */;
+			buildPhases = (
+				D12F4C89717B73C1C2BF4E21 /* [CP] Check Pods Manifest.lock */,
+				1267C0981ED8110E0027F0C2 /* Sources */,
+				1267C0991ED8110E0027F0C2 /* Frameworks */,
+				1267C09A1ED8110E0027F0C2 /* Resources */,
+				B86236E82E37B278BDE25E91 /* [CP] Embed Pods Frameworks */,
+				73A50B3EA7375FA72CB8FEB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿微信通讯录";
+			productName = "仿微信通讯录";
+			productReference = 1267C09C1ED8110E0027F0C2 /* 仿微信通讯录.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1267C0B41ED8110E0027F0C2 /* 仿微信通讯录Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1267C0CC1ED8110E0027F0C2 /* Build configuration list for PBXNativeTarget "仿微信通讯录Tests" */;
+			buildPhases = (
+				1267C0B11ED8110E0027F0C2 /* Sources */,
+				1267C0B21ED8110E0027F0C2 /* Frameworks */,
+				1267C0B31ED8110E0027F0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1267C0B71ED8110E0027F0C2 /* PBXTargetDependency */,
+			);
+			name = "仿微信通讯录Tests";
+			productName = "仿微信通讯录Tests";
+			productReference = 1267C0B51ED8110E0027F0C2 /* 仿微信通讯录Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1267C0BF1ED8110E0027F0C2 /* 仿微信通讯录UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1267C0CF1ED8110E0027F0C2 /* Build configuration list for PBXNativeTarget "仿微信通讯录UITests" */;
+			buildPhases = (
+				1267C0BC1ED8110E0027F0C2 /* Sources */,
+				1267C0BD1ED8110E0027F0C2 /* Frameworks */,
+				1267C0BE1ED8110E0027F0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1267C0C21ED8110E0027F0C2 /* PBXTargetDependency */,
+			);
+			name = "仿微信通讯录UITests";
+			productName = "仿微信通讯录UITests";
+			productReference = 1267C0C01ED8110E0027F0C2 /* 仿微信通讯录UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1267C0941ED8110E0027F0C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fangxian;
+				TargetAttributes = {
+					1267C09B1ED8110E0027F0C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					1267C0B41ED8110E0027F0C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1267C09B1ED8110E0027F0C2;
+					};
+					1267C0BF1ED8110E0027F0C2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1267C09B1ED8110E0027F0C2;
+					};
+				};
+			};
+			buildConfigurationList = 1267C0971ED8110E0027F0C2 /* Build configuration list for PBXProject "仿微信通讯录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1267C0931ED8110E0027F0C2;
+			productRefGroup = 1267C09D1ED8110E0027F0C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1267C09B1ED8110E0027F0C2 /* 仿微信通讯录 */,
+				1267C0B41ED8110E0027F0C2 /* 仿微信通讯录Tests */,
+				1267C0BF1ED8110E0027F0C2 /* 仿微信通讯录UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1267C09A1ED8110E0027F0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267C0AF1ED8110E0027F0C2 /* LaunchScreen.storyboard in Resources */,
+				1267C0AC1ED8110E0027F0C2 /* Assets.xcassets in Resources */,
+				1267C0AA1ED8110E0027F0C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267C0B31ED8110E0027F0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267C0BE1ED8110E0027F0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73A50B3EA7375FA72CB8FEB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿微信通讯录/Pods-仿微信通讯录-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86236E82E37B278BDE25E91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-仿微信通讯录/Pods-仿微信通讯录-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D12F4C89717B73C1C2BF4E21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1267C0981ED8110E0027F0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267C0E41ED811EA0027F0C2 /* SXPersonInfoEntity.m in Sources */,
+				1267C0EE1ED812FA0027F0C2 /* UIColor+Hex.m in Sources */,
+				1267C0E31ED811EA0027F0C2 /* SXAddressBookManager.m in Sources */,
+				1267C0EA1ED812540027F0C2 /* KTAddressBookTableViewCell.m in Sources */,
+				1267C0E01ED811EA0027F0C2 /* SXAddressBookIOS7Maneger.m in Sources */,
+				1267C0E71ED812220027F0C2 /* KTRelationShipAddressBookViewController.m in Sources */,
+				1267C0E21ED811EA0027F0C2 /* SXAddressBookIOS9Maneger.m in Sources */,
+				1267C0F71ED814680027F0C2 /* NSString+Utils.m in Sources */,
+				1267C0A71ED8110E0027F0C2 /* ViewController.m in Sources */,
+				1267C0A41ED8110E0027F0C2 /* AppDelegate.m in Sources */,
+				1267C0E11ED811EA0027F0C2 /* SXAddressBookIOS8Maneger.m in Sources */,
+				1267C0F41ED814370027F0C2 /* ContactDataHelper.m in Sources */,
+				1267C0F11ED813830027F0C2 /* ContactModel.m in Sources */,
+				1267C0A11ED8110E0027F0C2 /* main.m in Sources */,
+				1267C0DF1ED811EA0027F0C2 /* SXAddressBookDefine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267C0B11ED8110E0027F0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267C0BA1ED8110E0027F0C2 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267C0BC1ED8110E0027F0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267C0C51ED8110E0027F0C2 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1267C0B71ED8110E0027F0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1267C09B1ED8110E0027F0C2 /* 仿微信通讯录 */;
+			targetProxy = 1267C0B61ED8110E0027F0C2 /* PBXContainerItemProxy */;
+		};
+		1267C0C21ED8110E0027F0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1267C09B1ED8110E0027F0C2 /* 仿微信通讯录 */;
+			targetProxy = 1267C0C11ED8110E0027F0C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1267C0A81ED8110E0027F0C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1267C0A91ED8110E0027F0C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1267C0AD1ED8110E0027F0C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1267C0AE1ED8110E0027F0C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1267C0C71ED8110E0027F0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1267C0C81ED8110E0027F0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1267C0CA1ED8110E0027F0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B537D3C1D9BC134D81AF8E6 /* Pods-仿微信通讯录.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿微信通讯录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1267C0CB1ED8110E0027F0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FA85D15C5D3101BE69E1B4 /* Pods-仿微信通讯录.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿微信通讯录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1267C0CD1ED8110E0027F0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿微信通讯录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿微信通讯录.app/仿微信通讯录";
+			};
+			name = Debug;
+		};
+		1267C0CE1ED8110E0027F0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿微信通讯录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿微信通讯录.app/仿微信通讯录";
+			};
+			name = Release;
+		};
+		1267C0D01ED8110E0027F0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿微信通讯录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿微信通讯录";
+			};
+			name = Debug;
+		};
+		1267C0D11ED8110E0027F0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿微信通讯录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fangxian.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿微信通讯录";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1267C0971ED8110E0027F0C2 /* Build configuration list for PBXProject "仿微信通讯录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267C0C71ED8110E0027F0C2 /* Debug */,
+				1267C0C81ED8110E0027F0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1267C0C91ED8110E0027F0C2 /* Build configuration list for PBXNativeTarget "仿微信通讯录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267C0CA1ED8110E0027F0C2 /* Debug */,
+				1267C0CB1ED8110E0027F0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1267C0CC1ED8110E0027F0C2 /* Build configuration list for PBXNativeTarget "仿微信通讯录Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267C0CD1ED8110E0027F0C2 /* Debug */,
+				1267C0CE1ED8110E0027F0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1267C0CF1ED8110E0027F0C2 /* Build configuration list for PBXNativeTarget "仿微信通讯录UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267C0D01ED8110E0027F0C2 /* Debug */,
+				1267C0D11ED8110E0027F0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1267C0941ED8110E0027F0C2 /* Project object */;
+}
