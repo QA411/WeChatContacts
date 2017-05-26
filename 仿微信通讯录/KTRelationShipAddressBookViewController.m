@@ -98,7 +98,7 @@
     cell.nameLabel.text = model.fullname.length > 0?model.fullname:@"#";
     cell.phoneLabel.text = model.phoneNumber;
     cell.imageLabel.text = model.phoneNumber == nil? _sectionArr[indexPath.section]:model.fullname.length >0?[model.fullname substringToIndex:1]:@"#";//# 这种就是没姓名
-    
+    cell.imageLabel.textColor = [UIColor blackColor];
     __weak __typeof__(self) weakSelf = self;
     if ([weakSelf.relationArray containsObject:model.phoneNumber]) {
         model.isHidden = @"1";
